@@ -1,0 +1,63 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.App-header {
+  text-align: center;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Chat-table-container {
+  height: 60vh;
+  overflow-y: scroll;
+  width: 100vw;
+  max-width: 960px;
+  background-color: #000066;
+  color: #E8E8E8;
+  border: 2px solid #7f7f7f;
+}
+
+.Chat-table {
+  width: 100%;
+  table-layout: fixed;
+  font-size: 1rem;
+
+  text-align: left;
+}
+
+.Chat-table tr {
+  height: 10px;
+}
+
+.Chat-table td + td {
+  border-left: 2px solid gray;
+  padding: 3px;
+}
+
+.Chat-controls {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
